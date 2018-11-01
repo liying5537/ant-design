@@ -72,7 +72,7 @@ function NestedTable() {
   };
 
   const columns = [
-    { title: 'Name', dataIndex: 'name', key: 'name' },
+    { title: 'Name', dataIndex: 'name', key: 'name', fixed: 'left' },
     { title: 'Platform', dataIndex: 'platform', key: 'platform' },
     { title: 'Version', dataIndex: 'version', key: 'version' },
     { title: 'Upgraded', dataIndex: 'upgradeNum', key: 'upgradeNum' },
